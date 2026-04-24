@@ -9,7 +9,7 @@
 
 ## API Overview
 
-This RESTful API is built with **JAX-RS (Jersey 2.32)** and deployed on **Apache Tomcat**. It provides a complete backend for managing campus Rooms and IoT Sensors, including full historical logging of sensor readings. All data is stored entirely in-memory using thread-safe `ConcurrentHashMap` and `ArrayList` — no database is used.
+This RESTful API is built with **JAX-RS** and deployed on **Apache Tomcat**. It provides a complete backend for managing campus Rooms and IoT Sensors, including full historical logging of sensor readings. All data is stored entirely in-memory using thread-safe `ConcurrentHashMap` and `ArrayList` — no database is used.
 
 **Base URL:** `http://localhost:8080/SmartCampusAPI/api/v1`
 
@@ -46,10 +46,10 @@ The system starts with the following data for immediate testing:
 ## Technology Stack
 
 - **Language:** Java 8
-- **Framework:** JAX-RS with Jersey 2.32
+- **Framework:** JAX-RS with Jersey
 - **Server:** Apache Tomcat
 - **Build Tool:** Apache Maven
-- **JSON:** Jackson (via jersey-media-json-jackson)
+- **JSON:** Jackson
 - **Data Storage:** In-memory ConcurrentHashMap
 
 ---
@@ -59,8 +59,8 @@ The system starts with the following data for immediate testing:
 ### Prerequisites
 
 - JDK 8 or higher
-- Apache Maven 3.x
-- Apache Tomcat 9.x
+- Apache Maven
+- Apache Tomcat
 
 ### Step 1 — Clone the Repository
 
