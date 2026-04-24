@@ -1,6 +1,6 @@
 # Smart Campus Sensor & Room Management API
 
-**Module:** 5COSC022W – Client-Server Architectures (2025/26)  
+**Module:** 5COSC022W – Client-Server Architectures  
 **Author:** S.D.V. Samarathunga  
 **UoW ID:** 2151919w  
 **IIT ID:** 20241769
@@ -9,7 +9,7 @@
 
 ## API Overview
 
-This RESTful API is built with **JAX-RS (Jersey 2.32)** and deployed on **Apache Tomcat 9**. It provides a backend for managing campus Rooms and IoT Sensors, including a full historical log of sensor readings. Data is stored entirely in-memory using `ConcurrentHashMap` and `ArrayList`.
+This RESTful API is built with **JAX-RS** and deployed on **Apache Tomcat**. It provides a backend for managing campus Rooms and IoT Sensors, including a full historical log of sensor readings. Data is stored entirely in-memory using `ConcurrentHashMap` and `ArrayList`.
 
 **Base URL:** `http://localhost:8080/SmartCampusAPI/api/v1`
 
@@ -31,14 +31,14 @@ This RESTful API is built with **JAX-RS (Jersey 2.32)** and deployed on **Apache
 ### Prerequisites
 
 - JDK 8 or higher
-- Apache Maven 3.6+
-- Apache Tomcat 9.x
+- Apache Maven
+- Apache Tomcat
 
 ### Steps
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/SmartCampusAPI.git
+   git clone https://github.com/vishmikas/Smart-Campus-API.git
    cd SmartCampusAPI
    ```
 
