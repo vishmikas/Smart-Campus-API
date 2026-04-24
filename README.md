@@ -1,6 +1,6 @@
 # Smart Campus Sensor & Room Management API
 
-**Module:** 5COSC022W – Client-Server Architectures
+**Module:** 5COSC022.2 – Client-Server Architectures
 **Author:** S.D.V. Samarathunga
 **UoW ID:** 2151919w
 **IIT ID:** 20241769
